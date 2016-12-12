@@ -4,11 +4,11 @@ var log = require("./src/log.js");
 
 function Elto(opts) {
   this.routes = {
-    get: {
+    GET: {
 
     },
-    post: {
-      
+    POST: {
+
     }
   };
   if (!(this instanceof Elto)){
