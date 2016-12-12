@@ -1,4 +1,12 @@
 module.exports = (method, path, handler) => {
-  // this.routes[method][path] = handler;
-  console.log(this.routes)
+  this.routes[method][path] = handler;
 }
+
+module.exports.routes = {
+  GET: {
+
+  },
+  POST: {
+
+  }
+};
