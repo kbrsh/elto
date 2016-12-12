@@ -19,6 +19,8 @@ function Elto(opts) {
 }
 
 Elto.prototype.run = run;
+Elto.prototype.route = route;
+Elto.prototype.handle = handle;
 
 
 
