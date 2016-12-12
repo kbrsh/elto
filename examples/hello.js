@@ -1,4 +1,4 @@
 var elto = require("../index.js");
-var app = new elto();
+var app = elto();
 
 app.run();
