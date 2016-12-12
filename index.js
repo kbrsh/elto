@@ -1,4 +1,4 @@
-require("http");
+var http = require("http");
 
 function Elto() {
 
