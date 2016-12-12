@@ -20,4 +20,8 @@ app.get("/redirect", function(req, res) {
   res.redirect("http://example.com");
 });
 
+app.missing(function(req, res) {
+  res.html("<h1>404 Not Found</h1>");
+});
+
 app.run();
