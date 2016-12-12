@@ -1,4 +1,3 @@
-var http = require("http");
 module.exports = (req) => {
-
+  return req;
 };
