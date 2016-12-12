@@ -1,3 +1,3 @@
 var http = require("http");
-var req = http.IncomingMessage.prototype;
+var req = http.IncomingMessage;
 module.exports = req;

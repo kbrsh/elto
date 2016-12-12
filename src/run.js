@@ -4,6 +4,8 @@ var handle = require("./handle.js")
 module.exports = (port, ip) => {
   log("======= Elto =======", "blue");
   var server = http.createServer(function(req, res) {
+    req = require("./request.js");
+    res = require("./response.js");
     handle(req, res);
   });
   server.listen(port ? port : 3000, ip ? ip : "0.0.0.0");
