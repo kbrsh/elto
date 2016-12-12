@@ -1,0 +1,22 @@
+{
+  "name": "elto",
+  "version": "0.0.0",
+  "description": "Minimal, ultralight web framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No Test Yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPixil/elto.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Kabir Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingPixil/elto/issues"
+  },
+  "homepage": "https://github.com/KingPixil/elto#readme"
+}
