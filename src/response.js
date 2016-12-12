@@ -1,4 +1,3 @@
-var req = require("./request.js");
 module.exports = (res) => {
   res.redirect = function(url) {
     res.writeHead(302, {'Location': url});
