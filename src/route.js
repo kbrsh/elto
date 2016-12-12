@@ -1,7 +1,4 @@
 module.exports = (method, path, handler) => {
-  this.routes[method][path] = handler;
+  // this.routes[method][path] = handler;
+  console.log(this.routes)
 }
-
-module.exports("GET", "/", function(req, res) {
-  res.end("Hello Elto, got: " + req.url);
-});
