@@ -1,7 +1,7 @@
 module.exports = (res) => {
   res.redirect = function(url) {
-    response.writeHead(302, {'Location': url});
-    response.end();
+    res.writeHead(302, {'Location': url});
+    res.end();
   }
   return res;
 };
