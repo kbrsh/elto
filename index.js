@@ -1,5 +1,6 @@
 var http = require("http");
 var run = require("./src/run.js");
+var server = require("./src/server.js");
 
 function Elto(opts) {
   this.routes = [];
