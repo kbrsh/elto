@@ -1,6 +1,5 @@
 var http = require("http");
 var run = require("./src/run.js");
-var handle = require("./src/handle.js");
 
 function Elto(opts) {
   this.routes = [];
@@ -9,7 +8,6 @@ function Elto(opts) {
   }
 }
 
-Elto.prototype.handle = handle;
 Elto.prototype.run = run;
 
 
