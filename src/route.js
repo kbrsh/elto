@@ -11,10 +11,10 @@ module.exports.routes = {
   },
   ERROR: {
     notFound: function(req, res) {
-      res.end("404 Not Found");
+      res.status(404).end("404 Not Found");
     },
     serviceUnavailable: function(req, res) {
-      res.end("503 Service Unavailable");
+      res.status(503).end("503 Service Unavailable");
     }
   }
 };
