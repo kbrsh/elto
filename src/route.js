@@ -8,5 +8,8 @@ module.exports.routes = {
   },
   POST: {
 
+  },
+  ERROR: {
+
   }
 };
