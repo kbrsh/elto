@@ -19,7 +19,7 @@ module.exports = (res) => {
 
   res.json = function(json) {
     res.set("Content-Type", "application/json");
-    res.end(json);
+    res.end(JSON.stringify(json));
   }
 
   return res;
