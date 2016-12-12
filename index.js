@@ -5,6 +5,8 @@ function Elto() {
 
 }
 
+Elto.prototype.run = run;
+
 
 
 module.exports = Elto;
