@@ -1,8 +1,9 @@
 var route = require("./route.js");
 module.exports = (req, res) => {
-  if(!route.routes[req.method][req.url]) {
+  var handler = route.routes[req.method][req.url];
+  if(!handler) {
     route.routes.ERROR.notFound(req, res);
   } else {
-    route.routes[req.method][req.url](req, res);
+    handler(req, res);
   }
 }
