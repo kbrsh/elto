@@ -16,6 +16,11 @@ module.exports = (res) => {
     res.set("Content-Type", "text/html");
     res.end(html);
   }
-  
+
+  res.json = function(json) {
+    res.set("Content-Type", "application/json");
+    res.end(json);
+  }
+
   return res;
 };
