@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-  res.end("Hello Elto!");
+  this.routes[req.method][req.url](req, res);
 }
