@@ -10,6 +10,8 @@ module.exports.routes = {
 
   },
   ERROR: {
-
+    notFound: function(req, res) {
+      
+    }
   }
 };
