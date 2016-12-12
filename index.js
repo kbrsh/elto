@@ -9,6 +9,7 @@ function Elto(opts) {
   }
 }
 
+Elto.prototype.get = get;
 Elto.prototype.run = run;
 
 
