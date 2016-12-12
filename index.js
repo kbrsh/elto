@@ -1,6 +1,7 @@
 var http = require("http");
 var run = require("./src/run.js");
 var route = require("./src/route.js");
+var handle = require("./src/handle.js");
 var log = require("./src/log.js");
 
 function Elto(opts) {
