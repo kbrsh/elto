@@ -1,3 +1,3 @@
-module.exports = (method, handler) => {
-  
+module.exports = (method, path, handler) => {
+
 }
