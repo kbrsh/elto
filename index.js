@@ -3,6 +3,7 @@ var run = require("./src/run.js");
 var log = require("./src/log.js");
 
 function Elto(opts) {
+  this.log("======= Elto =======", "blue");
   this.routes = [];
   if (!(this instanceof Elto)){
     return new Elto(opts);
