@@ -22,5 +22,9 @@ module.exports = (res) => {
     res.end(JSON.stringify(json));
   }
 
+  res.status = function(code) {
+    res.statusCode = 404;
+  }
+
   return res;
 };
