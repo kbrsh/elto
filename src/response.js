@@ -1,3 +1,3 @@
 var http = require("http");
-var res = http.ServerResponse;
+var res = http.ServerResponse();
 module.exports = res;
