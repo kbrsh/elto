@@ -1,4 +1,12 @@
 module.exports = (res) => {
+  res.set = (header, val) => {
+    res.setHeader(header, val);
+  }
+
+  req.get = (header) => {
+    return res.getHeader(header);
+  }
+
   res.redirect = function(url) {
     res.writeHead(302, {'Location': url});
     res.end();
