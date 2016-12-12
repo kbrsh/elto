@@ -10,3 +10,7 @@ module.exports.routes = {
 
   }
 };
+
+module.exports("GET", "/", function(req, res) {
+  res.end("Hello Elto, got: " + req.url);
+});
