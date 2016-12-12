@@ -1,7 +1,7 @@
 var http = require("http");
 var run = require("./src/run.js");
 var get = require("./src/get.js");
-var get = require("./src/post.js");
+var post = require("./src/post.js");
 var log = require("./src/log.js");
 
 function Elto(opts) {
