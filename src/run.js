@@ -1,5 +1,5 @@
 var http = require("http");
-var handle = require("./src/handle.js");
+var handle = require("./handle.js");
 module.exports = (port, ip) => {
   var server = http.createServer(function(req, res) {
     handle(req, res);
