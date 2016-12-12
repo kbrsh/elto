@@ -3,7 +3,7 @@ module.exports = (res) => {
     res.setHeader(header, val);
   }
 
-  req.get = (header) => {
+  res.get = (header) => {
     return res.getHeader(header);
   }
 
